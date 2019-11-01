@@ -1,10 +1,10 @@
 import React from 'react';
-import SassComponent from './components/SassComponent';
+import StyledComponent from './components/StyledComponent';
 
 function App() {
   return (
     <div>
-      <SassComponent />
+      <StyledComponent />
     </div>
   );
 }
