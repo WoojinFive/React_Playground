@@ -1,0 +1,65 @@
+.TodoListItem {
+  // &:nth-child(even) {
+  //   background: #404244 !important;
+  // }
+  & + & {
+    border-top: 1px solid #dee2e6;
+  }
+  .checkbox {
+    cursor: pointer;
+    // flex: 1;
+    // display: flex;
+    // align-items: center;
+    // svg {
+    //   font-size: 1.5rem;
+    // }
+    .text {
+      font-size: 1rem;
+      // margin-left: 0.5rem;
+      // flex: 1;
+      input {
+        //initializing of basic style
+        width: 90%;
+        background: none;
+        outline: none;
+        border: solid black 1px;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: black;
+      }
+    }
+    &.checked {
+      // svg{
+      //   color: #22b8cf;
+      // }
+      .text {
+        color: #adb5bd;
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  .edit {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #096309;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    &:hover {
+      color: #29a129;
+    }
+  }
+  
+  .remove {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ff6b6b;
+    cursor: pointer;
+    &:hover {
+      color: #ff8787;
+    }
+  }
+}
+

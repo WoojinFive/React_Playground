@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { connechttps://github.com/ICOM3010-ITC2020/icom3010_self_wo.gitt } from 'react-redux';
 import Counter from '../components/Counter';
 import { increase, decrease } from '../modules/counter'
 
