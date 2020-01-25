@@ -86,7 +86,7 @@ export default
       date: 'January 2020',
       client: 'Woojin Oh',
       url: 'http://www.halifaxweb.dev',
-      github: '',
+      github: 'https://git.io/JvqYr',
     },
   ],
   timelines:[

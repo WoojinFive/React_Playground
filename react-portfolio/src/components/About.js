@@ -22,10 +22,12 @@ const About = () => {
               ))}
               <li className="timeline-inverted">
                 <div className="timeline-image">
-                  <h4>Download<br />
-                    my<br />
-                    Resume!
-                  </h4>
+                  <a className="resume" href="/files/Woojin_Oh_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <h4>Download<br />
+                      my<br />
+                      Resume!
+                    </h4>
+                  </a>
                 </div>
               </li>
             </ul>

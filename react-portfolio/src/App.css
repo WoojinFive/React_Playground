@@ -112,6 +112,13 @@ h6 {
   color: #420101;
 }
 
+.resume {
+  color: #ffffff !important;
+}
+
+.resume:hover {
+  text-decoration: none;
+}
 
 @media (min-width: 768px) {
   section {
