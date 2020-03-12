@@ -109,7 +109,10 @@ export default {
       shortDesc: 'Building my portfolio website with React Library.',
       imageFull: ['/images/portfolio/06-full.jpg'],
       imageThumbnail: '/images/portfolio/06-thumbnail.jpg',
-      fullDesc: [''],
+      fullDesc: [
+        'This is my portfolio website.',
+        'This website is created using React and hosted in firebase.'
+      ],
       date: 'January 2020',
       client: 'Woojin Oh',
       url: 'http://www.halifaxweb.dev',
@@ -135,6 +138,25 @@ export default {
       client: 'Woojin Oh',
       url: 'https://ng-course-recipe-book-c3c07.firebaseapp.com/',
       github: 'https://git.io/Jv2cO'
+    },
+    {
+      id: 8,
+      title: 'Employee Portal App',
+      skills: 'Angular, MongoDB, Node.js',
+      shortDesc: 'Building a Employee Portal App with Angular Framework.',
+      imageFull: [
+        '/images/portfolio/08-full.jpg',
+        '/images/portfolio/08-full-2.jpg'
+      ],
+      imageThumbnail: '/images/portfolio/08-thumbnail.jpg',
+      fullDesc: [
+        "It's an employee portal where users can sign in through a web browser. Once inside they have access to all of their professional information such as pay history, hours worked, and staff schedules. As well as a system for allowing staff to contact each other in real-time through instant messaging with an individual person or multiple teams. We'll make a control center with access only given to upper management where they can enter a staff's hours worked, upload their pay statements, manage schedules, and distribute any other information to staff that would be given from upper management.",
+        'Components, Directives, Services, Forms, Http Access, Authentication, Optimizing an Angular App with Modules and Offline Compilation were used for this app.'
+      ],
+      date: 'On Going',
+      client: 'Woojin Oh',
+      url: '',
+      github: ''
     }
   ],
   timelines: [
