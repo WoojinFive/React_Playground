@@ -157,6 +157,22 @@ export default {
       client: 'Woojin Oh',
       url: '',
       github: ''
+    },
+    {
+      id: 9,
+      title: 'Burger Builder App',
+      skills: 'React',
+      shortDesc: 'Building a Hamburger Builder App with React Library.',
+      imageFull: [
+        '/images/portfolio/09-full.jpg',
+        '/images/portfolio/09-full-2.jpg'
+      ],
+      imageThumbnail: '/images/portfolio/09-thumbnail.jpg',
+      fullDesc: ['Building a Hamburger Builder App with React Library.'],
+      date: 'On Going',
+      client: 'Woojin Oh',
+      url: 'https://hamburger-builder-d2150.firebaseapp.com/',
+      github: 'https://git.io/JvPJY'
     }
   ],
   timelines: [
