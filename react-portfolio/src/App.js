@@ -1,27 +1,16 @@
 import React from 'react';
-import './App.css';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Introduce from './components/Introduce';
-import Skills from './components/Skills';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Home from './components/Home';
+import Hajun from './components/Hajun';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Navbar />
-      <Header />
-      <Introduce />
-      <Skills />
-      <Portfolio />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+    <Switch>
+      <Route path='/hajun' render={(props) => <Hajun {...props} />} />
+      <Route path='/' exact component={Home} />
+      <Redirect to='/' />
+    </Switch>
   );
 };
 
