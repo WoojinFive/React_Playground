@@ -88,6 +88,10 @@ const Skills = () => {
                 <i className='fab fa-php'></i>
                 <span className='tooltiptext'>PHP</span>
               </div>
+              <div className='python'>
+                <i className='fab fa-python'></i>
+                <span className='tooltiptext'>Python</span>
+              </div>
               <div className='react'>
                 <i className='fab fa-react'></i>
                 <span className='tooltiptext'>React</span>
@@ -95,6 +99,12 @@ const Skills = () => {
               <div className='angular'>
                 <i className='fab fa-angular'></i>
                 <span className='tooltiptext'>Angular</span>
+              </div>
+              <div className='django'>
+                <object type='image/svg+xml' data='/images/icons/django.svg'>
+                  Django
+                </object>
+                <span className='tooltiptext'>Django</span>
               </div>
               <div className='laravel'>
                 <i className='fab fa-laravel'></i>
@@ -109,6 +119,12 @@ const Skills = () => {
                   MySQL
                 </object>
                 <span className='tooltiptext'>MySQL</span>
+              </div>
+              <div className='postgresql'>
+                <object type='image/svg+xml' data='/images/icons/postgresql.svg'>
+                  PostgreSQL
+                </object>
+                <span className='tooltiptext'>PostgreSQL</span>
               </div>
               <div className='mongodb'>
                 <object type='image/svg+xml' data='/images/icons/mongodb.svg'>

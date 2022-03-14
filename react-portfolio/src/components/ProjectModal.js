@@ -28,8 +28,12 @@ const ProjectModal = ({ project }) => {
                     )}
                   </div>
                   <ul className="list-inline">  
-                    <li>Date: {project.date}</li>
-                    <li>Client: {project.client}</li>
+                    {project.date && (
+                      <li>Date: {project.date}</li>
+                    )}
+                    {project.client && (
+                      <li>Client: {project.client}</li>
+                    )}
                     {project.url && (
                       <li>URL: <a href={project.url} target="_blank" rel="noopener noreferrer">{project.url}</a></li>
                     )}

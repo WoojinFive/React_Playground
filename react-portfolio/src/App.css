@@ -896,6 +896,14 @@ object {
   visibility: visible;
 }
 
+#skill #carousel .python:hover {
+  background: #FFE873;
+}
+
+#skill #carousel .python:hover .tooltiptext {
+  visibility: visible;
+}
+
 #skill #carousel .react:hover {
   background: #00d8ff;
 }
@@ -909,6 +917,14 @@ object {
 }
 
 #skill #carousel .angular:hover .tooltiptext {
+  visibility: visible;
+}
+
+#skill #carousel .django:hover {
+  background: #092e20;
+}
+
+#skill #carousel .django:hover .tooltiptext {
   visibility: visible;
 }
 
@@ -933,6 +949,14 @@ object {
 }
 
 #skill #carousel .mysql:hover .tooltiptext {
+  visibility: visible;
+}
+
+#skill #carousel .postgresql:hover {
+  background: #008bb9;
+}
+
+#skill #carousel .postgresql:hover .tooltiptext {
   visibility: visible;
 }
 

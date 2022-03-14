@@ -23,7 +23,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className='row'>
-            {data.projects.map((project) => (
+            {data.projects.reverse().map((project) => (
               <Project project={project} key={project.id} />
             ))}
           </div>
