@@ -223,6 +223,22 @@ export default {
       date: 'Nov 2020 ~',
       url: 'https://www.saltwire.com',
     },
+    {
+      id: 13,
+      title: 'Chicking',
+      skills: 'WordPress, Elementor',
+      shortDesc: 'Building a Website for local business with WordPress and Elementor.',
+      imageFull: [
+        '/images/portfolio/13-full.png',
+        '/images/portfolio/13-full-2.png'
+      ],
+      imageThumbnail: '/images/portfolio/13-thumbnail.png',
+      fullDesc: [
+        'Development of the local business website using WordPress and Elementor.',
+      ],
+      date: 'April 2022',
+      url: 'https://chicking4u.ca/',
+    },
   ],
   timelines: [
     {
